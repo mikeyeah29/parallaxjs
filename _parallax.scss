@@ -1,0 +1,50 @@
+/*.parallax {
+
+	height: 800px;
+
+	img {
+		width: 300px;
+	}
+
+	.parallax_item {
+		position: absolute;
+		&.center {
+			left: 0;
+			right: 0;
+		}
+		&.left {
+			left: 0px;
+		}
+		&.right {
+			right: 0px;
+		}
+	}
+
+}*/
+
+/*.mbp_parallax {
+	background: url('img/whensomeonedies.png');
+	width: 300px;
+	height: auto;
+	.inner {
+		background: url('img/placeholder1.png');
+		width: 300px;
+		height: auto;
+		float: right;
+	}
+}*/
+
+.mbp_parallax {
+	height: 600px;
+	@media(min-width: $tablet){
+		.prx_item {
+			position: absolute;
+			&.center {
+			    left: 0px;
+	    		right: 0px;
+	    		margin-left: auto;
+	    		margin-right: auto;
+			}
+		}
+	}
+}
